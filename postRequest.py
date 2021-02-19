@@ -7,7 +7,7 @@ def doPostRequest():
     myobj = {'first_name': 'Humphrey','second_name': 'Mugambi','age': '34' }
 
     response = requests.post(url, data=myobj)
-    print(f"The secret message is: {response.text}")
+    print(f"The Response is: {response.text}")
 
     
 if __name__ == "__main__":
